@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册_华为帐号</title>
+    <link rel="shortcut icon" href="./src/font/favicon.ico" />
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/register.css">
+    <link rel="stylesheet" href="src/iconfont/iconfont.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="header-center"> 
+            <div class="logo">
+                <img src="src/images/HUAWEI.svg" alt="">
+            </div>
+            <div class="name">
+                <b class="line"></b>
+                <b class="adHeadTitle">华为商城</b>
+            </div>
+        </div>
+    </div>
+    <!-- 中间 -->
+    <div class="center">
+        <div class="center-left iconfont">
+            <div class="tabphone">
+                <p>
+                    <span>&#xe607;</span>
+                    手机号注册
+                </p>
+            </div>
+            <div class="tabemail">
+                <p>
+                    <span>&#xe908;</span>
+                    邮件地址注册
+                </p>
+            </div>
+        </div>
+        <div class="center-right iconfont">
+            <div class="center-title">
+                <h2>华为帐号注册</h2>
+                <h3>已有账号，<a href="login.html">去登录 &#xe632;</a></h3>
+            </div>
+            <form action="post">
+                <!-- 国家地区 -->
+                <div class="chooseCountry">
+                    <i>国家/地区</i>
+                    <span class="iconfont">中国 &#xeb21;</span>
+                </div>
+                <!-- 手机号 -->
+                <div class="phone-number">
+                    <div class="area-code iconfont">
+                        <span>+86(中国) &nbsp;&#xeb21;</span>
+                    </div>
+                    <i></i>
+                    <input type="text" name="phone" placeholder="请输入手机号" class="phone-right">
+                </div>
+                <!-- 用户名 -->
+                <div class="sms">
+                    <input type="text" name="username" placeholder="用户名" class="obtain-sms">
+                    <!-- <input type="buttom" value="获取验证码" disabled="disabled" class="enter-sms" > -->
+                </div>
+                <!-- 密码 -->
+                <div class="password">
+                    <input type="password" name="password" placeholder="密码">
+                    <i></i>
+                </div>
+                <!-- 确认密码 -->
+                <div class="repeat-passwd">
+                    <input type="password" name="repasswd" placeholder="确认密码">
+                    <i></i>
+                </div>
+                <!-- 出生日期 -->
+                <div class="birthday">
+                    <span>出生日期</span>
+                    <ul class="iconfont">
+                        <li>
+                            2001年 &#xeb21;
+                        </li>
+                        <li>
+                            5月 &#xeb21;
+                        </li>
+                        <li>
+                            6日 &#xeb21;
+                        </li>
+                    </ul>
+                </div>
+                <!-- 注册按钮 -->
+                <div class="register-btn">
+                    <input type="button" value="注册" name="register">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+
+    <!-- 结束 -->
+    <div class="footer">
+        <div class="footer-center">
+            <ul class="clear">
+                <li>
+                    <a href="#">
+                        华为帐号用户协议
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        关于华为帐号与隐私的声明
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        常见问题
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Cookies
+                    </a>
+                </li>
+            </ul>
+            <h3>华为帐号  版权所有 © 2011-2021</h3>
+        </div>
+    </div>
+</body>
+<script src="src/js/jquery-3.6.0.js"></script>
+<script src="src/layer/layer.js"></script>
+<script src="src/js/register.js"></script>
+</html>

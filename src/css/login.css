@@ -1,0 +1,265 @@
+.header{
+    width: 100%;
+    height: 48px;
+    background: rgba(0,0,0,0.05);
+}
+.header-center{
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+}
+.logo{
+    height: 24px;
+    width: 108px;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+}
+.name{
+    font-size: 20px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+.line{
+    float: left;
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(0,0,0,0.2);
+    margin: 14px 16px;
+}
+.adHeadTitle{
+    color: #191919;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    float: left;
+    line-height: 1;
+    margin-top: 16px;
+}
+/* 头部结束 */
+.center-title{
+    padding: 100px 0 80px;
+    text-align: center;
+}
+.center-title p{
+    font-size: 32px;
+}
+.center{
+    width: 841px;
+    height: 584px;
+    margin: 0 auto;
+}
+.center-left{
+    width: 360px;
+    height: 273px;
+    text-align: center;
+    float: left;
+}
+.qrcode{
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background: #F7F7F7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+.qrcode img{
+    width: 160px;
+    height: 160px;
+}
+.center-left p{
+    margin-top: 50px;
+    line-height: 22px;
+    color: #838383;
+    text-align: center;
+    font-size: 12px;
+}
+.center-line{
+    display: inline-block;
+    width: 1px;
+    height: 300px;
+    background: rgba(0,0,0,0.1);
+    margin: 0 60px;
+    float: left;
+}
+.center-right{
+    width: 360px;
+    height: 420px;
+    float: left;
+}
+.center-right input{
+    width: 358px;
+    height: 48px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    text-align: left;
+    outline: 0;
+    line-height: 48px;
+    font-size: 14px;
+    color: #191919;
+}
+#password{
+    margin-top: 26px;
+}
+.center-right p{
+    padding: 16px 0 0;
+}
+.center-right p a{
+    color: #007dff;
+    font-size: 16px;
+}
+.center-right .sub{
+    background: #CA141D;
+    border: none;
+    border-radius: 8px;
+    width: 390px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    text-align: center;
+    /* opacity: .38; */
+    margin-top: 40px;
+    cursor: pointer;
+}
+.login-link{
+    padding-top: 40px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.login-link li a{
+    color: #007dff;
+    font-size: 16px;
+    padding: 0 15px;
+    position: relative;
+}
+.login-link li a::before{
+    background: rgba(0,0,0,0.1);
+    clear: both;
+    padding-top: 3px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 1px;
+    height: 16px;
+    overflow: hidden;
+    left: 0;
+}
+.login-link li:first-child a:before{
+    display: none;
+}
+.third-login{
+    width: 270px;
+    margin: 0 auto;
+    padding: 30px 0 40px;
+    text-align: center;
+}
+.icon-qq{
+    width: 40px;
+    height: 40px;
+    margin: 0 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    background:url(../images/third_qq.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    float: left;
+}
+.icon-qq:hover{
+    background:url(../images/third_qq_hover.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.icon-alipay{
+    width: 40px;
+    height: 40px;
+    margin: 0 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    background:url(../images/third_alipay.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    float: left;
+}
+.icon-alipay:hover{
+    background:url(../images/third_alipay_hover.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.icon-weixin{
+    width: 40px;
+    height: 40px;
+    margin: 0 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: url(../images/third_weixin.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    float: left;
+}
+.icon-weixin:hover{
+    background: url(../images/third_weixin_hover.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+/* 中间结束 */
+.footer{
+    width: 100%;
+    background: rgba(0,0,0,0.05);
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+    /* position: absolute;
+    bottom: 0; */
+}
+.footer-center ul li{
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+.footer-center ul li a{
+    padding: 0 10px;
+}
+.footer-center ul li a::before{
+    display: block;
+    content: "";
+    width: 1px;
+    height: 16px;
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer-center ul li:first-child a::before{
+    display: none;
+}
+.footer-center h3{
+    line-height: 12px;
+    height:12px;
+    margin-top: 10px;
+    color: #000; 
+    opacity: 0.3;
+    text-align:center;
+    font-size: 12px;
+}

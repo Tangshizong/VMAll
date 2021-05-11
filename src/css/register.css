@@ -1,0 +1,352 @@
+.header{
+    width: 100%;
+    height: 48px;
+    background: rgba(0,0,0,0.05);
+}
+.header-center{
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+}
+.logo{
+    height: 24px;
+    width: 108px;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+}
+.name{
+    font-size: 20px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+.line{
+    float: left;
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(0,0,0,0.2);
+    margin: 14px 16px;
+}
+.adHeadTitle{
+    color: #191919;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    float: left;
+    line-height: 1;
+    margin-top: 16px;
+}
+/* 头部结束 */
+.center{
+    width: 1200px;
+    height: 788px;
+    margin: 0 auto;
+}
+.center-left{
+    width: 272px;
+    float: left;
+    margin-top: 40px;
+    font-size: 12px;
+    float: left;
+}
+.tabphone{
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer!important;
+    background: rgba(0,0,0,.05);
+    font-size: 14px;
+}
+.tabphone p {
+    margin: 0 16px;
+}
+.tabphone p span{
+    margin: 0 8px;
+}
+.tabemail{
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer!important;
+    /* background: rgba(0,0,0,.05); */
+    font-size: 14px;
+    cursor: pointer;
+}
+.tabemail p {
+    margin: 0 16px;
+}
+.tabemail p span{
+    margin: 0 8px;
+}
+.tabphone:hover{
+    background-color: rgba(0,125,255,.1);
+}  
+.tabemail:hover{
+    background-color: rgba(0,125,255,.1);
+}   
+/* 左边结束 */
+.center-right{
+    width: 440px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 80px;
+}
+.center-title{
+    margin: 10px 0 60px;
+}
+.center-title h2{
+    font-size: 32px;
+    color: #191919;
+    line-height: 32px;
+    text-align: center;
+}
+.center-title h3{
+    font-size: 18px;
+    color: #191919;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 8px;
+}
+.center-title h3 a{
+    font-size: 18px;
+    color: #007dff;
+}
+.chooseCountry{
+    width: 442px;
+    height: 48px;
+    margin: 20px 0 8px 0;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+.chooseCountry i{
+    display: block;
+    float: left;
+    padding: 0 16px;
+    height: 100%;
+    line-height: 48px;
+}
+.chooseCountry span{
+    height:100%;
+    line-height: 48px;
+    display: inline-block;
+    float: right;
+    padding: 0 16px;
+    font-size: 14px;
+}
+.phone-number{
+    width: 442px;
+    height: 48px;
+    margin: 20px 0 0 0 ;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+.area-code{
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+.area-code span{
+    display: inline-block;
+    height: 100%;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 14px;
+    margin: 0;
+}
+.phone-number i{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 27px;
+    line-height: 27px;
+    background: rgba(0,0,0,0.1);
+    margin-right: 8px;
+    margin-top: 8px;
+    overflow: hidden;
+    float: left;
+}
+.phone-right{
+    width: 277px;
+    height: 100%;
+    line-height: 48px;
+    font-size: 14px;
+    color: #191919;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    float: left;
+    padding: 0 16px;
+}
+.sms{
+    width: 442px;
+    height: 48px;
+    margin: 20px 0 0 0 ;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+.sms .obtain-sms{
+    width: 322px;
+    height: 48px;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #191919;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    float: left;
+}
+.sms .enter-sms{
+    width: 70px;
+    height: 48px;
+    margin: 0 16px 0 0;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: #007dff;
+}
+.password,.repeat-passwd{
+    width: 442px;
+    height: 48px;
+    margin: 20px 0 0 0 ;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+.password input,.repeat-passwd input{
+    width: 370px;
+    height: 48px;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #191919;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    float: left;
+}
+.password i,.repeat-passwd i{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-top: 10px;
+    line-height: 48px;
+    background: url('../images/password_eyeoff_disable.svg') no-repeat 0 0 / 100% 100%;
+    cursor: pointer;
+}
+.birthday{
+    width: 442px;
+    height: 48px;
+    margin: 20px 0 0 0 ;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+.birthday span{
+    width: 88px;
+    height: 48px;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #191919;
+    background: transparent;
+    float: left;
+}
+.birthday ul{
+    width: 200px;
+    height: 48px;
+    float: right;
+}
+.birthday ul li{
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    float: left;
+    margin: 0 8px;
+}
+.register-btn{
+    width: 442px;
+    height: 48px;
+    margin-top: 50px;
+    text-align: center;
+}
+.register-btn input{
+    border-radius: 8px;
+    background: #007dff;
+    border: 1px solid #ccc;
+    width: 276px;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    height: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* 中间结束 */
+.footer{
+    width: 100%;
+    background: rgba(0,0,0,0.05);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+    /* position: absolute;
+    bottom: 0; */
+}
+.footer-center ul li{
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+.footer-center ul li a{
+    padding: 0 10px;
+}
+.footer-center ul li a::before{
+    display: block;
+    content: "";
+    width: 1px;
+    height: 16px;
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer-center ul li:first-child a::before{
+    display: none;
+}
+.footer-center h3{
+    line-height: 12px;
+    height:12px;
+    margin-top: 10px;
+    color: #000; 
+    opacity: 0.3;
+    text-align:center;
+    font-size: 12px;
+}
