@@ -57,6 +57,9 @@
     padding: 0 8px;
     position: relative;
 }
+.nav-left ul li:first-child:before,.nav-right ol li:first-child::before{
+    display: none;
+}
 .nav-left ul li::before,.nav-right ol li::before{
     content: "";
     width: 1px;
@@ -281,18 +284,69 @@
     top: 20px;
     left: 0;
  }
- .banner-layout .category ol li{
+ .banner-layout .category ol>li{
      width: 200px;
      height: 20px;
      padding: 10px;
  }
- .banner-layout .category ol li a{
+ .banner-layout .category ol>li a{
      font-size: 14px;
      color: #848484;
      line-height: 20px;
  }
- .banner-layout .category ol li a span{
+ .banner-layout .category ol>li a span{
      float: right;
+ }
+ .category .menu{
+    position: absolute;
+    left: 199px;
+    height: 420px;
+    max-width: 1020px;
+    background: #FFF;
+    padding: 20px 0 0 32px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 46px rgb(0 0 0 / 10%);
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    display: none;
+ }
+ .category .phone-menu{
+    width: 242px;
+    margin: 0;
+    float: left;
+ }
+ .category .menu .pl{
+    width: 230px;
+    height: 60px;
+    float: left;
+    margin-bottom: 25px;
+ }
+.category .menu .pl a{
+    display: block;
+    width: 230px;
+    height: 60px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-right: 0;
+    color: #3a3a3a;
+ }
+ .category .menu .pl a img{
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin: 6px 8px 0 12px;
+ }
+.category .menu .pl a p{
+    line-height: 60px;
+    color: #666;
+    font-size: 14px;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+ .category .menu .pl a:hover{
+    background: #f6f6f6;
  }
 /* 焦点图结束 */
 .mid-menu{
@@ -327,12 +381,12 @@
     float: left;
     margin-right: 17px;
 }
-.list .s1 .unlogin{
+.list .s1 .login{
     width: 147px;
     height: 52px;
     float: left;
 }
-.list .s1 .unlogin p{
+.list .s1 .login p{
     width: 147px;
     height: 20px;
     font-size: 14px;

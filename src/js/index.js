@@ -97,4 +97,83 @@ $('.home-banner').hover(function(){
         $('.home-banner ol li').eq(sub).addClass('focus');
     },3000)
 })
+// 登录状态
+if(getCookie('username')){
+    $('.nav-right ol li').first().html(`
+        <a href="javascript:;">欢迎您：${getCookie('username')}</a>
+    `)
+    $('.nav-right ol li').first().next().html(`
+        <a href="javascript:;">退出</a>
+    `)
+    $('.list .s1 .login p').html(`
+        您好！<a href="javascript:;">${getCookie('username')}</a>/<a href="javascript:;" class="out">退出</a>
+    `)
+}else{
+    $('.nav-right ol li').first().html(`
+        <a href="login.html">请登录</a>
+    `)
+    $('.nav-right ol li').first().next().html(`
+        <a href="register.html">注册</a>
+    `)
+    $('.list .s1 .login p').html(`
+    您好！请<a href="login.html">登录</a>/<a href="register.html">注册</a>
+    `)
+}
+//点击退出
+$('.nav-right ol li').first().next().click(function(){
+    //询问框
+    layer.confirm('您确定要退出吗？', {
+        btn: ['确定','取消'] //按钮
+      }, function(){
+        removeCookie('username');
+        layer.msg('退出成功', {
+            time: 500, //0.5s后自动关闭
+          });
+        $('.nav-right ol li').first().html(`
+            <a href="login.html">请登录</a>
+        `)
+        $('.nav-right ol li').first().next().html(`
+            <a href="register.html">注册</a>
+        `)
+        $('.list .s1 .login p').html(`
+        您好！请<a href="login.html">登录</a>/<a href="register.html">注册</a>
+        `)
+      }, function(){
+        layer.msg('取消退出', {
+          time: 500, //0.5s后自动关闭
+        });
+      });
+})
+console.log($('.out'));
+$('.out').click(function(){
+    //询问框
+    layer.confirm('您确定要退出吗？', {
+        btn: ['确定','取消'] //按钮
+        }, function(){
+        removeCookie('username');
+        layer.msg('退出成功', {
+            time: 500, //0.5s后自动关闭
+            });
+        $('.nav-right ol li').first().html(`
+            <a href="login.html">请登录</a>
+        `)
+        $('.nav-right ol li').first().next().html(`
+            <a href="register.html">注册</a>
+        `)
+        $('.list .s1 .login p').html(`
+        您好！请<a href="login.html">登录</a>/<a href="register.html">注册</a>
+        `)
+        }, function(){
+        layer.msg('取消退出', {
+            time: 500, //0.5s后自动关闭
+        });
+        });
+})
 
+//二级菜单
+$('.category ol li').hover(function(){
+    // console.log($(this).find('div'))
+    $(this).find('div').css('display','block');
+},function(){
+    $(this).find('div').css('display','none');
+})

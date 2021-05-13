@@ -15,10 +15,6 @@ $row = mysqli_fetch_assoc($user);
 // 提取到数据 $row是一个数组,提取不到数据，$row是null
 if($row){
     if($row["password"] === $password){
-        // 在登录成功以后存储cookie - php内置函数 setcookie(键,值)
-        // cookie是存在浏览器的，是不安全的，从浏览器直接能找到的
-        // php中的time() 函数，返回当前的时间戳，是世界标准时间，单位是秒
-        setcookie('username',$username,time()+3600*27*7,'/');
         $arr = [
             'meta'=>[
                 "status"=>2,

@@ -20,9 +20,11 @@ $('.sub').click(function(){
             layer.msg(message);
             return false;
         }else if(status == 2){
+            //登录成功后设置cookies
+            setCookie('username',username,7200,path='/');
             layer.msg(message);
             setTimeout(function(){
-                location.href="http://localhost/VMALL/index.html";
+                history.back()
             },1000)
             return false;
         }else if(status == 1){

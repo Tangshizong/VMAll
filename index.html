@@ -46,11 +46,6 @@
                     <li class="More-exciting">
                         更多精彩&nbsp; &#xe646;
                         <div class="move-dropdown">
-                            <!-- 模拟下拉框 -->
-                            <!-- EMUI
-                            应用市场
-                            华为终端云空间
-                            开发者联盟 -->
                         </div>
                     </li>
                 </ul>
@@ -109,7 +104,7 @@
                               <!-- 左边结束 -->
             <div class="right iconfont">
                 <div class="seach-bar">
-                    <form method="get" onsubmit="return search(this)">
+                    <form method="get">
                         <input type="text" class="text" maxlength="200" id="search-kw" autocomplete="off"/>
                         <input type="submit" class="button iconfont" value="&#xe617;"/>
                    </form>
@@ -152,17 +147,347 @@
                 <!-- 左侧导航栏 -->
                 <div class="category iconfont">
                     <ol>
-                        <li><a href="list.html">手机<span>&#xe632;</span></a></li>
-                        <li><a href="#">智能穿戴&VR<span>&#xe632;</span></a></li>
-                        <li><a href="#">耳机音箱眼镜<span>&#xe632;</span></a></li>
-                        <li><a href="#">智慧屏<span>&#xe632;</span></a></li>
-                        <li><a href="#">电脑<span>&#xe632;</span></a></li>
-                        <li><a href="#">平板<span>&#xe632;</span></a></li>
-                        <li><a href="#">智能路由<span>&#xe632;</span></a></li>
-                        <li><a href="#">配件<span>&#xe632;</span></a></li>
-                        <li><a href="#">生态产品<span>&#xe632;</span></a></li>
-                        <li><a href="#">美食酒饮<span>&#xe632;</span></a></li>
-                        <li><a href="#">增值服务&企业商用<span>&#xe632;</span></a></li>
+                        <li class="phone-l">
+                            <a href="list.html?type=phone">手机<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="phone-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="vr-l">
+                            <a href="list.html?type=watch">智能穿戴&VR<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="vr-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="headset-l">
+                            <a href="list.html?type=sound">耳机音箱眼镜<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="headset-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="tv-l">
+                            <a href="#">智慧屏<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="tv-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="computer-l">
+                            <a href="#">电脑<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="computer-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pad-l">
+                            <a href="#">平板<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="pad-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="routing-l">
+                            <a href="#">智能路由<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="routing-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fitting-l">
+                            <a href="#">配件<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="fitting-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ecology-l">
+                            <a href="#">生态产品<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="ecology-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wine-l">
+                            <a href="#">美食酒饮<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="wine-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="company-l">
+                            <a href="#">增值服务&企业商用<span>&#xe632;</span>
+                            </a>
+                            <!-- 二级菜单 -->
+                            <div class="company-menu menu">
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                                <div class="pl">
+                                    <a href="#">
+                                        <img src="https://res.vmallres.com/pimages//pages/frontCategory/14651510730611515641.png" alt="">
+                                        <p><span>HUAWEI Mate系列</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                     </ol>
                 </div>
                 <!-- 小圆点 -->
@@ -192,15 +517,12 @@
         <!-- 登录注册 -->
         <ul class="list">
             <li class="s1">
-                <img src="src/images/img_not_logged_in.png" alt="">
+                <img src="src/images/img_not_logged_in.png" alt=""> 
                 <div class="login">
-                </div> 
-                <div class="unlogin">
                     <p>您好！请<a href="login.html">登录</a>/<a href="register.html">注册</a></p> 
-                        <a href="#" class="newpeple">新人福利</a>
-                        <a href="#" class="vippeple">会员频道</a>
+                    <a href="#" class="newpeple">新人福利</a>
+                    <a href="#" class="vippeple">会员频道</a>
                 </div>
-
             </li>
             <li class="s2">
                 <ol class="list-center">
@@ -400,7 +722,7 @@
                 <h2>精品推荐</h2>
                 <div class="recommend">
                     <!-- 左右按钮 -->
-                    <div class="recommend-btn-l iconfont">&#xe6f9;</div>
+                    <div class="recommend-btn-l iconfont none">&#xe6f9;</div>
                     <div class="recommend-btn-r iconfont">&#xe632;</div>
                     <ul>
                         <li>
@@ -754,7 +1076,7 @@
                     </ul>
                     <div class="grid-list">
                         <!-- 左右按钮 -->
-                        <div class="grid-list-lbtn iconfont">&#xe6f9;</div>
+                        <div class="grid-list-lbtn iconfont none">&#xe6f9;</div>
                         <div class="grid-list-rbtn iconfont">&#xe632;</div>
                         <ul>
                             <li>
@@ -2219,5 +2541,7 @@
     </div>
 </body>
 <script src="src/js/jquery-3.6.0.js"></script>
+<script src="src/layer/layer.js"></script>
+<script src="src/js/tools.js"></script>
 <script src="src/js/index.js"></script>
 </html>

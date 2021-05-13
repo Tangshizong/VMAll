@@ -1,42 +1,156 @@
-var phone1 = {"code":"0","labelList":[{"category":"36","categoryName":"手机","categoryPhotoName":"JIX3vFrm0ZNhpJeX24Vx.png","categoryPhotoPath":"/product/virtualCategory/","labelContentList":[{"displayName":"服务优惠","fieldName":"offers","itemEntryList":[{"key":"0","value":"仅看有货"},{"key":"1","value":"分期免息"},{"key":"2","value":"优惠商品"}]},{"displayName":"屏幕尺寸","fieldName":"screen_size","itemEntryList":[{"key":"2","value":"6.0-6.5英寸"},{"key":"3","value":"6.5英寸以上"}]},{"displayName":"运行内存","fieldName":"ram","itemEntryList":[{"key":"1","value":"4GB"},{"key":"2","value":"6GB"},{"key":"3","value":"8GB及以上"}]},{"displayName":"存储容量","fieldName":"rom","itemEntryList":[{"key":"1","value":"64GB"},{"key":"2","value":"128GB"},{"key":"3","value":"256GB及以上"}]},{"displayName":"上市时间","fieldName":"market_time","itemEntryList":[{"key":"0","value":"3个月内"},{"key":"1","value":"3-6个月"},{"key":"2","value":"6个月以上"}]}]}],"pageNum":1,"pageSize":20,"resultList":[{"activeBeginTime":"2021-05-09 10:08:00","activeEndTime":"2021-05-09 11:59:00","briefName":"HUAWEI Mate 40E","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI Mate 40E","photoName":"DEBB356E00934B123CDAE9CACBD70E1536224850853CCCE8mp.png","photoPath":"/product/6941487220267/","picture3DPath":"","price":4599.0,"priceAccurate":4599.0,"priceLabel":1,"priceMode":1,"productId":10086905317517,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":6686,"skuCode":"2601010263902","skuCount":6,"skuName":"HUAWEI Mate 40E 5G 全网通 8GB+128GB（釉白色）","webVideoPath":""},{"activeBeginTime":"2021-05-10 10:08:00","activeEndTime":"2021-05-10 11:00:00","briefName":"HUAWEI Mate X2","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI Mate X2","photoName":"D58F3741EBC023C1DD544D1A9D77B2DF8D1873FF58D72D75mp.png","photoPath":"/product/6941487225064/","picture3DPath":"","price":17799.0,"priceAccurate":17799.0,"priceLabel":1,"priceMode":1,"productId":10086537361084,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":5800,"skuCode":"2601010261419","skuCount":16,"skuName":"HUAWEI Mate X2 5G 全网通 256GB（冰晶蓝）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI nova 8","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI nova 8","photoName":"1BED94F76D33074373CB7636AC2AEB733F3754C113BF6BBDmp.png","photoPath":"/product/6941487210619/","picture3DPath":"","price":3299.0,"priceAccurate":3299.0,"priceLabel":1,"priceMode":1,"productId":10086232069466,"promoLabels":["赠送积分"],"promotionInfo":"5G热卖","rateCount":15358,"skuCode":"2601010250302","skuCount":16,"skuName":"HUAWEI nova 8 8GB+128GB 全网通版（普罗旺斯 ）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI nova 7 SE 5G 乐活版","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI nova 7 SE 5G 乐活版","photoName":"65BAF4AE278E82C2A71E1FE608D217B1072241C8560983BBmp.png","photoPath":"/product/6901443433247/","picture3DPath":"","price":2299.0,"priceAccurate":2299.0,"priceLabel":1,"priceMode":1,"productId":10086200882969,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":790,"skuCode":"2601010256701","skuCount":6,"skuName":"HUAWEI nova 7 SE 5G 乐活版 8GB+128GB 全网通版（银月星辉）","webVideoPath":""},{"activeBeginTime":"2021-05-10 10:08:00","activeEndTime":"2021-05-10 12:00:00","briefName":"HUAWEI Mate 40","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI Mate 40","photoName":"30DC7C81625DCEBCC577E88BAE05B489A616EAAAFDB59375mp.png","photoPath":"/product/6941487210992/","picture3DPath":"","price":4999.0,"priceAccurate":4999.0,"priceLabel":1,"priceMode":1,"productId":10086368169358,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":30978,"skuCode":"2601010245503","skuCount":10,"skuName":"HUAWEI Mate 40 5G 全网通 8GB+128GB（秘银色）","webVideoPath":""},{"activeBeginTime":"2021-05-11 10:08:00","activeEndTime":"2021-05-11 13:59:00","briefName":"华为畅享20 SE","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"华为畅享20 SE","photoName":"4C8EE6806EDE629C0082E7D08CA7FA9FDF4155E790051011mp.png","photoPath":"/product/6941487212811/","picture3DPath":"","price":1499.0,"priceAccurate":1499.0,"priceLabel":1,"priceMode":1,"productId":10086437813952,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":5258,"skuCode":"2601010252104","skuCount":6,"skuName":"华为畅享20 SE 8GB+128GB 全网通版（幻夜黑）","webVideoPath":""},{"activeBeginTime":"2021-05-10 10:08:00","activeEndTime":"2021-05-10 10:30:00","briefName":"HUAWEI nova 8 Pro","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI nova 8 Pro","photoName":"2E46AA51F10D36916D945D9EAE0E5C224B05E187580E8C20mp.png","photoPath":"/product/6941487211227/","picture3DPath":"","price":3999.0,"priceAccurate":3999.0,"priceLabel":1,"priceMode":1,"productId":10086199502267,"promoLabels":["赠送积分"],"promotionInfo":"5G热卖","rateCount":9416,"skuCode":"2601010250402","skuCount":17,"skuName":"HUAWEI nova 8 Pro 8GB+128GB 全网通版（普罗旺斯）","webVideoPath":""},{"activeBeginTime":"2021-05-10 10:08:00","activeEndTime":"2021-05-10 11:00:00","briefName":"HUAWEI Mate 40 Pro+","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI Mate 40 Pro+","photoName":"64A6BB5D9B19C61B2C8724E1D12E02E0DF740091C034401Bmp.png","photoPath":"/product/6941487207626/","picture3DPath":"","price":8999.0,"priceAccurate":8999.0,"priceLabel":1,"priceMode":1,"productId":10086375798519,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":3098,"skuCode":"2601010233901","skuCount":2,"skuName":"HUAWEI Mate 40 Pro+ 5G 全网通 12GB+256GB（陶瓷黑）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI P40","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI P40","photoName":"288D96B4DF91A1FB25F6B4F2A1E55B3083A6391F3B1D4460mp.png","photoPath":"/product/6901443383177/","picture3DPath":"/display/10086013232739/496D5B3FACED8D6EDF147220F0E493D641523326D2554EFB.zip","price":4488.0,"priceAccurate":4488.0,"priceLabel":1,"priceMode":1,"productId":10086013232739,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":32095,"skuCode":"2601010188307","skuCount":15,"skuName":"HUAWEI P40 5G 全网通 8GB+128GB（深海蓝）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI nova 7 5G","buttonMode":"8","currencyUnit":"","goodRate":"98","isInv":1,"mobileVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/c14a0aaa5285890807507131862/v.f118461.mp4","name":"HUAWEI nova 7 5G","photoName":"7843929F829F1DAC9EFC6A50B6BD0CA9999BA351D2526117mp.png","photoPath":"/product/6901443393251/","picture3DPath":"","price":2999.0,"priceAccurate":2999.0,"priceLabel":1,"priceMode":1,"productId":10086783311507,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":18900,"skuCode":"2601010208703","skuCount":11,"skuName":"HUAWEI nova 7 5G 前置3200万像素高清自拍 后置6400万变焦四摄  麒麟985 5G SoC 芯片 8GB+128GB 全网通版（绮境森林）","webVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/c14a0aaa5285890807507131862/v.f118461.mp4"},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI Mate 40 RS保时捷设计","buttonMode":"1","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/21e3e18e5285890809152740871/v.f118461.mp4","name":"HUAWEI Mate 40 RS保时捷设计","photoName":"084225B8F3BD10E711B7C93693A3600E1B87BAB5D6FD0DE4mp.png","photoPath":"/product/6941487222551/","picture3DPath":"","price":10999.0,"priceAccurate":10999.0,"priceLabel":1,"priceMode":1,"productId":10086918242357,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":20553,"skuCode":"2601010233407","skuCount":8,"skuName":"HUAWEI Mate 40 RS保时捷设计 5G 全网通 8GB+256GB（陶瓷黑）","webVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/21e3e18e5285890809152740871/v.f118461.mp4"},{"activeBeginTime":"","activeEndTime":"","briefName":"华为畅享20 Pro 5G","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"华为畅享20 Pro 5G","photoName":"C089F3BE3BD266BAC2B777E1190F59241E0CE65223CA694Bmp.png","photoPath":"/product/6972453165077/","picture3DPath":"","price":1999.0,"priceAccurate":1999.0,"priceLabel":1,"priceMode":1,"productId":10086226244792,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":3336,"skuCode":"2601010222703","skuCount":8,"skuName":"华为畅享20 Pro 6GB+128GB 全网通版（星河银）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI nova 8 SE","buttonMode":"8","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI nova 8 SE","photoName":"FE364E05A0D86CE39BE00E1EE1D18350AA8E982DFAFFC0A2mp.png","photoPath":"/product/6941487203307/","picture3DPath":"","price":2699.0,"priceAccurate":2699.0,"priceLabel":1,"priceMode":1,"productId":10086738213745,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":2892,"skuCode":"2601010241105","skuCount":8,"skuName":"HUAWEI nova 8 SE 5G全网通 8GB+128GB 高配版（天玑800U）幻夜黑","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI nova 7 SE 5G 活力版","buttonMode":"8","currencyUnit":"","goodRate":"98","isInv":1,"mobileVideoPath":"","name":"HUAWEI nova 7 SE 5G 活力版","photoName":"73BCBBB4876F3F6B63D1A34232AD2A6590CDC262C17D7977mp.png","photoPath":"/product/6901443418435/","picture3DPath":"","price":2299.0,"priceAccurate":2299.0,"priceLabel":1,"priceMode":1,"productId":10086938832551,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":1279,"skuCode":"2601010231504","skuCount":4,"skuName":"HUAWEI nova 7 SE 5G 活力版 8GB+128GB 全网通版（仲夏紫）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI Mate 30E Pro","buttonMode":"1","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI Mate 30E Pro","photoName":"0BA14C7E638AD4B322D55B3106389B9E0986553156115F92mp.png","photoPath":"/product/6901443415861/","picture3DPath":"","price":5299.0,"priceAccurate":5299.0,"priceLabel":1,"priceMode":1,"productId":10086063422898,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":7266,"skuCode":"2601010234205","skuCount":12,"skuName":"HUAWEI Mate 30E Pro 5G 全网通 8GB+128GB（丹霞橙）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI nova 7 Pro 5G","buttonMode":"8","currencyUnit":"","displayTags":"热销爆款","goodRate":"98","isInv":1,"mobileVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/c14a0aaa5285890807507131862/v.f118461.mp4","name":"HUAWEI nova 7 Pro 5G","photoName":"6D2C3BD6E95F48BE819116EED6B4EA4AA6EACC03475DC850mp.png","photoPath":"/product/6901443393084/","picture3DPath":"","price":4099.0,"priceAccurate":4099.0,"priceLabel":1,"priceMode":1,"productId":10086163649385,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":10980,"skuCode":"2601010209409","skuCount":10,"skuName":"HUAWEI nova 7 Pro 5G 前置3200万追焦双摄 50倍潜望式变焦四摄  麒麟985 5G SoC 8GB+256GB 全网通版（7号色）","tagBgColor":"FF6A6E","webVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/c14a0aaa5285890807507131862/v.f118461.mp4"},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI Mate 30 Pro 5G","buttonMode":"1","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/001774685285890795459358887/v.f20.mp4","name":"HUAWEI Mate 30 Pro 5G","photoName":"A48D3693600D3F96715A5288CA0EB254C46D4D5F3AE802FBmp.png","photoPath":"/product/6901443353194/","picture3DPath":"/display/10086775311605/6E95A4A775A8532EB5365EBC2363D1799A713B41FFF31A21.zip","price":6399.0,"priceAccurate":6399.0,"priceLabel":1,"priceMode":1,"productId":10086775311605,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":65569,"skuCode":"2601010161210","skuCount":17,"skuName":"HUAWEI Mate 30 Pro 5G 全网通 8GB+256GB 麒麟990 双4000万徕卡电影四摄（罗兰紫）","webVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/001774685285890795459358887/v.f20.mp4"},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI Mate 30 RS 保时捷设计","buttonMode":"1","currencyUnit":"","goodRate":"99","isInv":1,"mobileVideoPath":"","name":"HUAWEI Mate 30 RS 保时捷设计","photoName":"484D42DB83550E7CF59813E6BE3E2A9A4CF07CF0E75E32A3mp.png","photoPath":"/product/6901443353347/","picture3DPath":"","price":12999.0,"priceAccurate":12999.0,"priceLabel":1,"priceMode":1,"productId":10086374426533,"promoLabels":["赠送积分"],"promotionInfo":"致敬时代","rateCount":6015,"skuCode":"2601010167401","skuCount":2,"skuName":"HUAWEI Mate 30 RS 保时捷设计 5G全网通 12GB+512GB（玄黑）","webVideoPath":""},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI Mate 40 Pro","buttonMode":"1","currencyUnit":"","goodRate":"99","isInv":0,"mobileVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/222f70315285890809152786180/v.f118461.mp4","name":"HUAWEI Mate 40 Pro","photoName":"19EA25FFB51AB0AB79D82E3C8D317F67BEC741CBA0849F78mp.png","photoPath":"/product/6941487220748/","picture3DPath":"","price":6499.0,"priceAccurate":6499.0,"priceLabel":1,"priceMode":1,"productId":10086726905036,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":113755,"skuCode":"2601010234021","skuCount":21,"skuName":"HUAWEI Mate 40 Pro 5G 全网通 8GB+128GB（秘银色）","webVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/222f70315285890809152786180/v.f118461.mp4"},{"activeBeginTime":"","activeEndTime":"","briefName":"HUAWEI Mate 30 Pro","buttonMode":"1","currencyUnit":"","goodRate":"99","isInv":0,"mobileVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/e94158b85285890794184625439/v.f20.mp4","name":"HUAWEI Mate 30 Pro","photoName":"FAF5BBAB67C16D7426B5B1A2A38F9001DED6D011A0EE9977mp.png","photoPath":"/product/6901443331376/","picture3DPath":"/display/10086341244716/19E152AB1FEE7AA70C9FE94D9B6648BB5211640C44F2B2AF.zip","price":5399.0,"priceAccurate":5399.0,"priceLabel":1,"priceMode":1,"productId":10086341244716,"promoLabels":["赠送积分"],"promotionInfo":"","rateCount":42936,"skuCode":"2601010138505","skuCount":4,"skuName":"HUAWEI Mate 30 Pro 麒麟990 双4000万徕卡电影四摄 4G全网通 8GB+128GB（亮黑色）","webVideoPath":"https://1251250874.vod2.myqcloud.com/439f276avodtransgzp1251250874/e94158b85285890794184625439/v.f20.mp4"}],"resultType":1,"ruleId":"a2f51c094d41411897f5b1721acaed99","sid":"e91cf54160395fe85c0e24d38546f37bb6dd7232e8fed002","success":true,"totalCount":30,"transferState":0}
-
-
-var resultList = phone1.resultList;
-console.log(resultList);
-var list = $('.pro-list ul');
-var str = '';
-console.log(list);
-for(let i = 0;i<resultList.length;i++){
-    str += `
-        <li>
-            <div class="pro-panels">
-                <a href="detail.html">
-                    <p class="p-img">
-                        <img src="https://res.vmallres.com/pimages/${resultList[i].photoPath}428_428_${resultList[i].photoName}" />
-                    </p>
-                    <p class="p-name">
-                         ${resultList[i].name}
-                    </p>
-                    <p class="p-price clear">
-                        <b>${resultList[i].price}</b>
-                        <span>多款可选</span>
-                    </p>
-                    <p class="p-label">
-                        <span>${resultList[i].promoLabels[0]}</span>
-                    </p>
-                    <p class="p-comment">
-                        <em>
-                            <span>6822</span>
-                            人评价
-                        </em>
-                        <em>
-                            <span>99</span>
-                            %好评
-                        </em>
-                    </p>
-                </a>
-            </div>
-        </li>
-    `;
+//登录状态
+if(getCookie('username')){
+    $('.nav-right ol li').first().html(`
+        <a href="javascript:;">欢迎您：${getCookie('username')}</a>
+    `)
+    $('.nav-right ol li').first().next().html(`
+        <a href="javascript:;">退出</a>
+    `)
+}else{
+    $('.nav-right ol li').first().html(`
+        <a href="login.html">请登录</a>
+    `)
+    $('.nav-right ol li').first().next().html(`
+        <a href="register.html">注册</a>
+    `)
 }
-list.html(str);
+//点击退出
+$('.nav-right ol li').first().next().click(function(){
+    //询问框
+    layer.confirm('您确定要退出吗？', {
+        btn: ['确定','取消'] //按钮
+      }, function(){
+        removeCookie('username');
+        layer.msg('退出成功', {
+            time: 500, //0.5s后自动关闭
+          });
+        $('.nav-right ol li').first().html(`
+            <a href="login.html">请登录</a>
+        `)
+        $('.nav-right ol li').first().next().html(`
+            <a href="register.html">注册</a>
+        `)
+      }, function(){
+        layer.msg('取消退出', {
+          time: 500, //0.5s后自动关闭
+        });
+      });
+})
+
+
+// ajax请求数据
+function Page(className){
+    //获取列表页盒子
+    this.box = document.querySelector('.' + className);
+    //获取按钮
+    this.first =  this.box.querySelector('.first');
+    this.last =  this.box.querySelector('.last');
+    this.pre =  this.box.querySelector('.pre');
+    this.next =  this.box.querySelector('.next');
+    this.number = this.box.querySelector('.pager-number');
+    // 下标
+    this.index = 0;
+    // 页码
+    this.k = 1;
+    //页数
+    this.default = 0;
+    this.type = null;
+}
+Page.prototype.init = function(){
+    this.herf();
+    this.getData();
+    this.pageBtn();
+}
+//通过地址栏信息判断从何处链接点进来的
+Page.prototype.herf = function(){
+    var i = window.location.search;
+    this.type = i.split('=')[1];
+}
+Page.prototype.getData = function(){
+    // 创建页码
+    // this.default = Math.ceil(res.length/20);
+    //ajax
+    var list = $('.pro-list ul');
+    var str = '';
+    $.post("http://localhost/VMALL/src/PHP/list.php",
+        {type:this.type},
+        (res)=>{
+            str = '';
+            var page1 = res.slice(this.k-1,this.k*20)
+            for(var i = 0;i<page1.length;i++){
+                str += `
+                    <li>
+                        <div class="pro-panels">
+                            <a href="detail.html?sku=${page1[i].sku}">
+                                <p class="p-img">
+                                    <img src="${page1[i].imgpath}" />
+                                </p>
+                                <p class="p-name">
+                                    ${page1[i].name}
+                                </p>
+                                <p class="p-price clear">
+                                    <b>${page1[i].price}</b>
+                                    <span>多款可选</span>
+                                </p>
+                                <p class="p-label">
+                                    <span>${page1[i].promoLabels}</span>
+                                </p>
+                                <p class="p-comment">
+                                    <em>
+                                        <span>${page1[i].rateCount}</span>
+                                        人评价
+                                    </em>
+                                    <em>
+                                        <span>99</span>
+                                        %好评
+                                    </em>
+                                </p>
+                            </a>
+                        </div>
+                    </li>
+                `;
+            }    
+            list.html(str);
+        },'json'
+    )
+}
+// 分页按钮
+Page.prototype.pageBtn = function(){
+    $('.pager ul').on('click','li',(e)=>{
+        if(e.target == this.next){
+            //下一页
+            this.index++;
+            if(this.index >= $('.pager-number span').length-1){
+                this.index = $('.pager-number span').length-1
+            }
+            $('.pager-number span').eq(this.index).siblings().removeClass('active');
+            $('.pager-number span').eq(this.index).addClass('active');
+        }else if(e.target == this.pre){
+            //上一页
+            this.index--;
+            if(this.index <= 0){
+                this.index = 0
+            }
+            $('.pager-number span').eq(this.index).siblings().removeClass('active');
+            $('.pager-number span').eq(this.index).addClass('active');
+        }else if(e.target == this.first){
+            //第一页
+            this.index = 0;
+            $('.pager-number span').eq(this.index).siblings().removeClass('active');
+            $('.pager-number span').eq(this.index).addClass('active');
+        }else if(e.target ==this.last){
+            //最后页
+            this.index = $('.pager-number span').length-1;
+            $('.pager-number span').eq(this.index).siblings().removeClass('active');
+            $('.pager-number span').eq(this.index).addClass('active');
+        }
+        this.k = $('.pager-number .active').text()-0;
+        this.getData();
+    })
+}
+var page = new Page('pagerlist')
+page.init();
+
+
+
+    

@@ -123,68 +123,41 @@
                         首页
                     </a>
                     &nbsp; > &nbsp;
-                    <a href="#" title="首页">
+                    <a href="list.html?type=phone" title="首页">
                         手机
                     </a>
                     &nbsp; > &nbsp;
-                    <a href="#" title="首页">
-                        HUAWEI P系列
-                    </a>
-                    &nbsp; > &nbsp;
                     <span id="bread-name">
-                        HUAWEI P40 Pro+ 5G 全网通 8GB+256GB（陶瓷白）
+                        <!-- HUAWEI P40 Pro+ 5G 全网通 8GB+256GB（陶瓷白） -->
                     </span>  
                 </div>
             </div>
             <!-- 商品 -->
             <div class="product clear">
-                <div class="left">
-                    <div class="product-gallery">
+                <div class="product-left clear">
+                    <!-- 放大镜 -->
+                    <div class="product-gallery clear">
                         <div class="product-gallery-img">
-                            <img src="src/images/detail/product-800-1.png" alt="">
+                            <div class="mask"></div>
+                            <!-- 大图 -->
                         </div>
                         <div class="product-gallery-nav">
-                            <span class="btn-l">
-                                <a href="javascript:;"></a>
-                            </span>
-                            <span class="btn-r">
-                                <a href="javascript:;"></a>
-                            </span>
-                            <div class="product-gallery-thumbs">
                                 <ul class="pro-gallerys">
                                     <li class="current">
-                                        <img src="src/images/detail/product-78-1.png" alt="">
-                                    </li>
-                                    <li>
                                         <img src="src/images/detail/product-78-2.png" alt="">
                                     </li>
-                                    <li>
-                                        <img src="src/images/detail/product-78-3.png" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="src/images/detail/product-78-4.png" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="src/images/detail/product-78-5.png" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="src/images/detail/product-78-6.png" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="src/images/detail/product-78-7.png" alt="">
-                                    </li>
-                                    <li>
-                                        <img src="src/images/detail/product-78-8.png" alt="">
-                                    </li>
                                 </ul>
-                            </div>
                         </div>
                     </div>
+                    <!-- 隐藏盒子 -->
+                    <div class="product-bigbox">
+
+                    </div>
                 </div>
-                <div class="right">
-                    <h1 id="pro-name">HUAWEI P40 Pro+ 5G 全网通 8GB+256GB（陶瓷白）</h1>
+                <div class="product-right">
+                    <h1 id="pro-name"></h1>
                     <div class="product-slogan"> 
-                        <span>麒麟990 5G SoC芯片，纳米微晶陶瓷工艺，5000万超感知徕卡五摄，100倍双目变焦，华为5G全网通旗舰手机</span>
+                        <!-- <span>麒麟990 5G SoC芯片，纳米微晶陶瓷工艺，5000万超感知徕卡五摄，100倍双目变焦，华为5G全网通旗舰手机</span> -->
                     </div>
                     <div class="product-info">
                         <div class="price">
@@ -223,16 +196,16 @@
                             </dt>
                             <dd class="active">
                                 <a href="javascript:;">
-                                <img src="https://res.vmallres.com/pimages//product/6901443398027/40_40_C5B3EEB31BA081CF605FE04A1118DEF332F4C3003CC60ECEmp.png" alt="陶瓷白">
-                                <span>陶瓷白</span>
+                                    <img />
+                                    <span>陶瓷白</span>
                                 </a>
                             </dd>
-                            <dd>
+                            <!-- <dd>
                                 <a href="javascript:;">
-                                <img src="https://res.vmallres.com/pimages//product/6901443398010/40_40_5BE5026C5A8835CD516910ADCAC66185782AC52F8535EEF7mp.png" alt="陶瓷黑">
-                                <span>陶瓷黑</span>
+                                    <img src="https://res.vmallres.com/pimages//product/6901443398010/40_40_5BE5026C5A8835CD516910ADCAC66185782AC52F8535EEF7mp.png" alt="陶瓷黑">
+                                    <span>陶瓷黑</span>
                                 </a>
-                            </dd>
+                            </dd> -->
                         </dl>
                     </div>
                     <div class="product-choose clear">
@@ -334,8 +307,11 @@
                         </span>
                     </div>
                     <div class="product-button clear">
-                        <a href="javascript:;">
-                            <span>到货通知</span>
+                        <a href="javascript:; " class="join-cart">
+                            <span>加入购物车</span>
+                        </a>
+                        <a href="javascript:;" class="buy-now">
+                            <span>立即购买</span>
                         </a>
                     </div>
                 </div>
@@ -519,19 +495,6 @@
     </div>
     <div class="hr-60"></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <!-- 尾部 -->
     <div class="footer clear">
         <div class="footer-center">
@@ -809,5 +772,7 @@
     </div>
 </body>
 <script src="src/js/jquery-3.6.0.js"></script>
+<script src="src/layer/layer.js"></script>
+<script src="src/js/tools.js"></script>
 <script src="src/js/detail.js"></script>
 </html>
